@@ -32,7 +32,7 @@ lib/
 └── main.dart # App entry point
 ```
 
-### Screenshot
+### 📷 Demo Screenshot
 <img width="1920" height="1080" alt="clean1" src="https://github.com/user-attachments/assets/0f5f46ae-1947-405e-bdd8-3a0508070233" />
 
 ---
@@ -51,51 +51,29 @@ cd flutter-clean-architecture-demo
 flutter pub get
 ```
 3️⃣ Running the App
-For Web:
-
-bash
-Copy
-Edit
+- For Web:
 flutter run -d chrome
-For Mobile:
-
-bash
-Copy
-Edit
+- For Mobile:
 flutter run
-📷 Demo Screenshot
 
-🛠 Technologies Used
-Flutter (UI framework)
+## 🛠 Technologies Used
+- Flutter (UI framework)
+- Dart (Programming language)
+- Cubit / Bloc (State management)
+- Clean Architecture (Layered project structure)
 
-Dart (Programming language)
-
-Cubit / Bloc (State management)
-
-Clean Architecture (Layered project structure)
-
-📖 Clean Architecture Overview
+## 📖 Clean Architecture Overview
 This project follows the Clean Architecture approach, which separates concerns into three main layers:
+- Data Layer
+- Models, DTOs, and remote/local data sources.
+- Domain Layer
+- Entities and business logic (use cases).
+- Presentation Layer
+- UI widgets, Cubits, and view logic.
 
-Data Layer
-
-Models, DTOs, and remote/local data sources.
-
-Domain Layer
-
-Entities and business logic (use cases).
-
-Presentation Layer
-
-UI widgets, Cubits, and view logic.
-
-🤝 Contributing
-Fork the project
-
-Create a feature branch (git checkout -b feature-name)
-
-Commit changes (git commit -m 'Add some feature')
-
-Push to branch (git push origin feature-name)
-
-Open a Pull Request
+## 🤝 Contributing
+- Fork the project
+- Create a feature branch (git checkout -b feature-name)
+- Commit changes (git commit -m 'Add some feature')
+- Push to branch (git push origin feature-name)
+- Open a Pull Request
