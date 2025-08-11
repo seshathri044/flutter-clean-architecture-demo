@@ -49,3 +49,53 @@ lib/
 git clone https://github.com/seshathri044/flutter-clean-architecture-demo.git
 cd flutter-clean-architecture-demo
 flutter pub get
+```
+3️⃣ Running the App
+For Web:
+
+bash
+Copy
+Edit
+flutter run -d chrome
+For Mobile:
+
+bash
+Copy
+Edit
+flutter run
+📷 Demo Screenshot
+
+🛠 Technologies Used
+Flutter (UI framework)
+
+Dart (Programming language)
+
+Cubit / Bloc (State management)
+
+Clean Architecture (Layered project structure)
+
+📖 Clean Architecture Overview
+This project follows the Clean Architecture approach, which separates concerns into three main layers:
+
+Data Layer
+
+Models, DTOs, and remote/local data sources.
+
+Domain Layer
+
+Entities and business logic (use cases).
+
+Presentation Layer
+
+UI widgets, Cubits, and view logic.
+
+🤝 Contributing
+Fork the project
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit changes (git commit -m 'Add some feature')
+
+Push to branch (git push origin feature-name)
+
+Open a Pull Request
