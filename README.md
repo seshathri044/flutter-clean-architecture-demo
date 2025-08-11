@@ -49,12 +49,15 @@ git clone https://github.com/seshathri044/flutter-clean-architecture-demo.git
 cd flutter-clean-architecture-demo
 flutter pub get
 ```
-3️⃣ Running the App
+### 3️⃣ Running the App
 - For Web:
+```bash
 flutter run -d chrome
+```
 - For Mobile:
+```bash
 flutter run
-
+```
 ## 🛠 Technologies Used
 - Flutter (UI framework)
 - Dart (Programming language)
