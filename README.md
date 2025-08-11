@@ -1,4 +1,3 @@
-
 # Flutter Clean Architecture Demo
 
 A Flutter application demonstrating **Clean Architecture** principles, organized into clearly separated layers for scalability, testability, and maintainability.
